@@ -19,5 +19,8 @@ else
     bubbleShape = "circle";   
 }
 
+document.write("Before drawName in main.js\n")
+
 drawName(myName, letterColors);
 bounceBubbles();
+document.write("After bounce bubbles\n")
