@@ -228,6 +228,7 @@ function update() {
  
 function drawName(name, letterColors) {
     updateCanvasDimensions();
+    document.write("I am in drawName\n")
     var g = [];
     var offset = 0;
  
