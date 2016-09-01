@@ -22,5 +22,6 @@ else
 document.write("Before drawName in main.js\n")
 
 drawName(myName, letterColors);
+document.write("after draw\n")
 bounceBubbles();
 document.write("After bounce bubbles\n")
