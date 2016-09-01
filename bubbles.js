@@ -228,7 +228,7 @@ function update() {
  
 function drawName(name, letterColors) {
     updateCanvasDimensions();
-    document.write("I am in drawName\n")
+    
     var g = [];
     var offset = 0;
  
@@ -246,6 +246,7 @@ function drawName(name, letterColors) {
         }
  
         if (document.alphabet.hasOwnProperty(cc_hex)) {
+            document.write("I am in drawName\n");
             var chr_data = document.alphabet[cc_hex].P;
             var bc = letterColors[ix % letterColors.length];
  
