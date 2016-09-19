@@ -1,0 +1,83 @@
+
+
+body{
+    text-align:center;
+    background-color: lightblue;
+    background: url("../images/world.jpg");        
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    color:brown;
+    font-family: Helvetica;
+}
+
+.header{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	position:fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	border: 3px solid brown;
+
+
+}
+
+.header ul{
+	list-style-type: none;
+	lighting-color: red;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+}
+
+.header ul li{
+	display: inline;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+.header ul li:last-child {
+	float: right;
+	border-right: none;
+}
+
+.header ul a {
+	display: block;
+	padding: 8px;
+	color: brown;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.header a:hover{
+	background-color: blue;
+
+}
+
+#footer{
+	bottom: 0;
+}
+
+
+.main{
+	display: inline-block;
+	padding-top: 70px;
+	width: 100%;
+	clear: left;
+}
+
+.main_elements{
+	border: 2px solid blue;
+	background-color: white;
+	margin: 5px;
+	float: left
+	width: 180px;
+	display: inline-block;
+	width: auto;
+}
+#title{
+	top: 26px;
+}
