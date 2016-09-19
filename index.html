@@ -1,27 +1,42 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
-  <canvas id="myCanvas"></canvas> 
-  <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
-  <!--<script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script> -->
-  <script type="text/javascript" src="bubbles.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <h1 class="page-heading">My Name Asna</h1>
-  <input type=submit></input>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<html>
+	<head>
+		<title> Asna's Project </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/> 
+	</head>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<body background-color="blue">
+		<div class="header"> 
+			<ul>
+			<li><a href="index.html"> Home </a> </li>
+			<li><a href="about.html"> About</a> </li>
+			<li style="float.right"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		<div class="main" >
+			<div id="title">
+				<h1 font-size=25px> PROJECT PAGE
+				</h1>
+			</div>
+				<div class="main_elements" id="main_provider">
+					<p> PROVIDER </p>
+				</div>
+				<div class="main_elements" id="main_client">
+					<p> CLIENT </p>
+				</div>
+				<div class="main_elements" id="main_help">
+					<p> HELP </p>
+				</div>
+			</div>
+		</div>
 
-</div>
+		<div id=footer>
+			<p> Contact: </p>
+			<p> Email: help@gmail.com </p>
+			
+		</div>
+
+	</body>
+</html>
